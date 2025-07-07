@@ -57,9 +57,10 @@ git config --global user.email "deine@email.de"
 ### Repository anlegen & nutzen
 
 ```bash
-git init                      # Neues Git-Repo starten  
+git init                     # Neues Git-Repo starten  
 git status                   # Änderungen anzeigen  
 git add datei.txt            # Datei vormerken  
+git add .                    # alle Dateien vormerken
 git commit -m "Nachricht"    # Änderungen speichern  
 ```
 
@@ -138,8 +139,9 @@ git clone <ssh-url>
 
 ```bash
 git branch                    # Branches anzeigen  
-git checkout -b neuerBranch  # Neuen Branch erstellen  
-git checkout main            # Zum Haupt-Branch wechseln  
+git checkout -b neuerBranch  # Neuen Branch erstellen / wechsel in den neune erfolgt automatisch 
+git checkout main            # Zum Haupt-Branch wechseln 
+git checkout neuerBranch     # Zum neuenBranch-Branch wechseln, wenn dieser bereits erstellt ist
 git merge neuerBranch        # Branch zusammenführen  
 ```
 
