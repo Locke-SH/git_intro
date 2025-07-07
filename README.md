@@ -239,8 +239,7 @@ Das installiert alle benötigten Pakete automatisch.
 
 ---
 
-## Weitere Tutorials & Hilfeseiten
-
-- [git@github.com:Locke-SH/git_intro.git](https://github.com/kuahyeow/git-workshop)  
+## Weitere Hilfestellungen
+ 
 - [https://git-scm.com/doc](https://git-scm.com/doc) (offizielle Git-Dokumentation)  
 - [Git Cheat Sheet (PDF)](https://education.github.com/git-cheat-sheet-education.pdf)
